@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F5F5"
+    android:gravity="center">
+
+    <!-- La   Imagen de la app -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@drawable/_1cm52hr_xl"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <!-- El  Titulo -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conversor_de_divisas"
+        android:textSize="26sp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <!-- El   Campo para monto -->
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_input"
+        android:drawableStart="@drawable/ic_currency"
+        android:drawablePadding="10dp"
+        android:hint="@string/monto_a_convertir"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#757575"
+        android:textSize="18sp" />
+
+    <!-- El   Spinner de divisa de origen -->
+    <Spinner
+        android:id="@+id/spinner_from"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_spinner"
+        android:minHeight="48dp" />
+
+    <!-- El    Spinner de divisa de destino -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a" />
+
+    <Spinner
+        android:id="@+id/spinner_to"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_spinner"
+        android:minHeight="48dp" />
+
+    <!--El    Resultado de la conversión -->
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/resultado_0"
+        android:textColor="#43A047"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- El Botón para convertir -->
+    <Button
+        android:id="@+id/btn_convert"
+        android:layout_width="257dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="@string/convertir"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- EL Botón para resetear -->
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="259dp"
+        android:layout_height="65dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="@string/resetear"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/by_jonny_v_a"
+        android:textStyle="bold" />
+
+</LinearLayout>

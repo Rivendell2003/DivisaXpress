@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ei10M5</string>
+
+    <string name="activity_main_text_0">Conversor de Divisas</string>
+    <string name="activity_main_text_1">Monto a convertir</string>
+    <string name="activity_main_text_2">Resultado: 0</string>
+    <string name="activity_main_text_3">Convertir</string>
+    <string name="activity_main_text_4">Resetear</string>
+    <string name="by_jonny_v_a">by Jonny V. A.</string>
+    <string name="resetear">Resetear</string>
+    <string name="convertir">Convertir</string>
+    <string name="resultado_0">Resultado: 0</string>
+
+    <string name="result_prefix">Resultado: </string>
+    <string name="invalid_amount">Por favor ingrese un monto válido.</string>
+    <string name="a">A:</string>
+    <string name="monto_a_convertir">Monto a convertir</string>
+    <string name="conversor_de_divisas">Conversor de Divisas</string>
+    <string name="todo">TODO</string>
+    <string-array name="divisas_array">
+        <item>CLP - Chile</item>
+        <item>USD - Dólar (EE. UU.)</item>
+        <item>EUR - Euro</item>
+        <item>GBP - Libra Esterlina</item>
+        <item>MXN - Peso Mexicano</item>
+    </string-array>
+</resources>

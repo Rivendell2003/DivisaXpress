@@ -1,27 +1,42 @@
-Conversor de Divisas Android
-Este proyecto es una aplicación de Android que permite convertir entre varias divisas. El usuario puede ingresar una cantidad y seleccionar las divisas de origen y destino desde dos Spinners. La aplicación realiza la conversión usando tasas de cambio predeterminadas y muestra el resultado al usuario.
+💱 DivisaXpress – Calculadora de Divisas Offline para Android 11+
+DivisaXpress es una aplicación Android ligera y funcional, desarrollada en Kotlin, que permite a los usuarios convertir entre varias divisas sin necesidad de conexión a Internet. Está diseñada para dispositivos con Android 11 o versiones superiores, ofreciendo una experiencia de usuario sencilla y eficiente.
 
-Características
-Interfaz sencilla: Dispone de campos de entrada, Spinners para seleccionar las divisas y botones de acción.
-Conversión de divisas: Se realiza mediante tasas de cambio predeterminadas para las divisas más comunes (USD, EUR, GBP, JPY, CLP).
-Interfaz optimizada: Adaptada para pantallas pequeñas en modo paisaje (5" en este caso).
-Reseteo de campos: Opción para limpiar los campos de entrada y restablecer la interfaz a su estado inicial.
-Funcionalidades
-Entrada de monto: El usuario puede introducir el monto a convertir.
-Selección de divisas: Dos Spinners permiten elegir la divisa de origen y la divisa de destino.
-Conversión: Al presionar el botón de "Convertir", se muestra el resultado de la conversión.
-Reset: Al presionar el botón de "Resetear", se limpian todos los campos y se restablece la interfaz.
-Requisitos
-Android Studio (versión recomendada: Arctic Fox o superior).
-Kotlin como lenguaje de programación.
+🎯 Objetivo del Proyecto
+El objetivo principal de Ei10M5 es proporcionar una herramienta de conversión de divisas básica pero efectiva, enfocada en la simplicidad y la eficiencia. Es ideal para usuarios que necesitan realizar conversiones de divisas de manera rápida y sin conexión a Internet.
 
-Contribuciones
-¡Las contribuciones son bienvenidas! Si deseas mejorar o añadir nuevas características a esta aplicación, por favor sigue estos pasos:
+🧩 Características Principales
+Conversión de Divisas: Permite convertir entre varias divisas utilizando tasas de cambio predeterminadas.
 
-Haz un fork del repositorio.
-Crea una nueva rama para tu característica (git checkout -b feature/nueva-caracteristica).
-Haz commit de tus cambios (git commit -am 'Agregada nueva característica').
-Haz push a tu rama (git push origin feature/nueva-caracteristica).
-Crea un pull request.
-Licencia
-Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
+Interfaz Sencilla: Cuenta con campos de entrada, spinners para seleccionar las divisas y botones de acción.
+
+Optimización para Pantallas Pequeñas: Diseñada para adaptarse a pantallas de 5" en modo paisaje.
+
+Reseteo de Campos: Opción para limpiar los campos de entrada y restablecer la interfaz a su estado inicial.
+
+Compatibilidad: Funciona en dispositivos con Android 11 o versiones superiores.
+
+📁 Estructura del Proyecto
+.idea/: Archivos de configuración del proyecto.
+
+app/: Contiene el código fuente de la aplicación.
+
+gradle/: Scripts de construcción del proyecto.
+
+build.gradle.kts: Script de construcción en Kotlin DSL.
+
+gradle.properties: Configuración de propiedades de Gradle.
+
+gradlew y gradlew.bat: Scripts para ejecutar Gradle en sistemas Unix y Windows, respectivamente.
+
+settings.gradle.kts: Configuración del proyecto.
+
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la Licencia Creative Commons Atribución 4.0 Internacional. Esto significa que puedes compartir y adaptar el material para cualquier propósito, incluso comercialmente, siempre y cuando otorgues el crédito adecuado al autor original.
+
+Más información sobre esta licencia en: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+![Licencia: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)
+
+
